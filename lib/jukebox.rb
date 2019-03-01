@@ -35,6 +35,7 @@ def play(songs)
   if songs.include?(requested)
     puts "Playing #{requested}"
   elsif (1..9).include?(requested)
-    
+    index = requested - 1
+    puts "Playing #{songs[index]}"
   end
 end
