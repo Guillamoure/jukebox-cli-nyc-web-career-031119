@@ -33,7 +33,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   requested = gets.chomp
   if songs.include?(requested)
-    
+    puts "Playing #{requested}"
   elsif (1..9).include?(requested)
     
   end
