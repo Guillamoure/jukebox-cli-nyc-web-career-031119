@@ -36,7 +36,6 @@ def play(songs)
     puts "Playing #{requested}"
   elsif numbered_choices.include?(requested)
     index = numbered_choices.index(requested) 
-    print index
     puts "Playing #{songs[index]}"
   else
     puts "Invalid input, please try again"
