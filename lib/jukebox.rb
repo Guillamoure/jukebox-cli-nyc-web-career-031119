@@ -51,14 +51,14 @@ def run(songs)
   help
   puts "Please enter a command:"
   answer = gets.chomp
-  while answer != "exit"
     if answer == "list"
       list(songs)
     elsif answer == "play"
       play(songs)
     elsif answer == "help"
       help
-  end
+      breakif
+    end
   exit_jukebox
   break
 end
