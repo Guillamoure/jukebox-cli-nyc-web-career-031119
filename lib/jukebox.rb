@@ -35,7 +35,7 @@ def play(songs)
   if songs.include?(requested)
     puts "Playing #{requested}"
   elsif numbered_choices.include?(requested)
-    index = requested - 1
+    index = requested 
     print index
     puts "Playing #{songs[index]}"
   else
