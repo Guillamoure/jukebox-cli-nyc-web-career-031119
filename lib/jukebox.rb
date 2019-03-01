@@ -27,7 +27,7 @@ def list(songs)
 end
 
 def play(songs)
-  numbered_choices = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  numbered_choices = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
   
   
   puts "Please enter a song name or number:"
