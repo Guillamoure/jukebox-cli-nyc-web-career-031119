@@ -29,7 +29,7 @@ end
 def play(songs)
   numbered_choices = []
   numbered_choices << (1..9)
-  print numbered_choices
+  
   puts "Please enter a song name or number:"
   requested = gets.chomp
   if songs.include?(requested)
