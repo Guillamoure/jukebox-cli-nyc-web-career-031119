@@ -34,7 +34,7 @@ def play(songs)
   requested = gets.chomp
   if songs.include?(requested)
     puts "Playing #{requested}"
-  elsif (1..9).include?(requested)
+  elsif numbered_choices.include?(requested)
     index = requested - 1
     print index
     puts "Playing #{songs[index]}"
